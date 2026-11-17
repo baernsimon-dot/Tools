@@ -1,0 +1,14 @@
+name: PowerItems
+version: 1.0.0
+main: de.poweritems.PowerItems
+api-version: '1.21'
+description: Power Items wie auf DonutSMP - Drill 3x3
+commands:
+  poweritems:
+    description: Gibt dir Power Items
+    usage: /poweritems give <drill> [spieler]
+    aliases: [pi, drill]
+permissions:
+  poweritems.give:
+    description: Erlaubt /poweritems give
+    default: op
