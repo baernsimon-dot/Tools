@@ -1,0 +1,28 @@
+name: PowerItems
+version: 1.0.0
+main: de.baernsimondot.poweritems.PowerItems
+api-version: '1.21'
+author: baernsimondot
+description: Ein umfangreiches PowerItems-Plugin mit besonderen Items und Fähigkeiten.
+
+website: https://github.com/baernsimondot
+
+load: POSTWORLD
+
+commands:
+  poweritems:
+    description: Hauptbefehl des PowerItems-Plugins
+    usage: /poweritems
+    aliases:
+      - pi
+      - poweritem
+    permission: poweritems.use
+
+permissions:
+  poweritems.use:
+    description: Erlaubt die Verwendung des PowerItems-Befehls
+    default: true
+
+  poweritems.admin:
+    description: Erlaubt die Administration des Plugins
+    default: op
